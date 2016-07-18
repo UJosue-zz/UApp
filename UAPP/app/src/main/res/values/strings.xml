@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UAPP</string>
+    <string name="login">Login</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="direccion">Dirección</string>
+    <string name="noTarjeta">No. Tarjeta</string>
+    <string name="zip">zip</string>
+    <string name="signMas">+</string>
+    <string name="signMin">-</string>
+    <string name="comprar">Comprar</string>
+</resources>

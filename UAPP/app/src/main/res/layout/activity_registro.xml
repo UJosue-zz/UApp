@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.ujosue.uapp.activity.Registro">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNombreRegistro"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/nombre"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etCorreoRegistro"
+        android:layout_below="@+id/etNombreRegistro"
+        android:layout_alignLeft="@+id/etNombreRegistro"
+        android:layout_alignStart="@+id/etNombreRegistro"
+        android:hint="@string/correo"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etContrasenaRegistro"
+        android:layout_below="@+id/etCorreoRegistro"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/contrasena"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDireccionRegistro"
+        android:layout_below="@+id/etContrasenaRegistro"
+        android:layout_alignRight="@+id/etContrasenaRegistro"
+        android:layout_alignEnd="@+id/etContrasenaRegistro"
+        android:layout_alignLeft="@+id/etContrasenaRegistro"
+        android:layout_alignStart="@+id/etContrasenaRegistro"
+        android:hint="@string/direccion"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etTarjetaRegistro"
+        android:layout_below="@+id/etDireccionRegistro"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/noTarjeta"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etZipRegistro"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/zip"
+        android:gravity="center" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar"
+        android:id="@+id/btnRegistrar"
+        android:layout_below="@+id/etZipRegistro"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
